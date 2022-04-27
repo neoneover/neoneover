@@ -1,26 +1,8 @@
 # 👨‍💻 About me
 
-* **My name:** Dmitry!
-* **My site:** https://neurosis.xyz/
-* **Work experience:**
-    - **Akemi Community** (2020-2021) - Admin;
-    - **Naoko** (2021) - Owner and Developer;
-    - **ArchiTect** (2020-2021) - Moderator and Developer;
-    - **ENDLESS EMPIRE** (2021) - Developer and Owner;
-    - **Hoteru** (2021) - Developer;
-    - **Ethereal** (2020) - Developer;
-    - **HighTwink Games** (2021-***NOW***) - Developer;
-    - **Naoko Reborn** (2021-***NOW***) - Owner and Developer;
-    - **GameMax** (2021-***NOW***) - Owner and Developer bot;
-    - **Oasis.ゲ** (2021-***NOW***) - Owner and Developer bot;
+* **My nickname:** OneOver!
 * **Projects:**
-    - [**Naoko**](https://discord.gg/SfRmKNjh6b) ***(Deprecated)*** - Cozy server for communication!;
-    - [**Hoteru**](https://discord.gg/SfRmKNjh6b) ***(Deprecated)*** - Server for communication and search for friends;
-    - [**HighTwink Games**](https://discord.gg/YP432z25UM) - A good Minecraft server with a bunch of modes;
-    - [**Naoko Reborn**](https://discord.gg/pSXKf5J7Dc) - The revival of the old Naoko, which has become much better!;
-    - [**GameMax Community**](https://discord.gg/tvfjpjYc7c) - Server for GameMax bot users;
-    - [**GameMax Bot**](https://neurosis.xyz/gamemax) - The most beautiful discord bot with a huge set of tools and a sea of games!;
-    - [**Oasis.ゲ**](https://discord.gg/9YRzDnmgFP) - A good server for communication and new acquaintances;
+    - [**impressive**](https://discord.gg/rmsTpMcN2F) - impressive bot for your server!;
 
 # ⌨ My skills
 <p align="center">
