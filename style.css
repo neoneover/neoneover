@@ -149,10 +149,12 @@
   
   .hero-btn {
     background: linear-gradient(45deg, #0e60e6, #640ee6);
+    color: #ffffff;
   }
   
   .hero-btn-2 {
     background: linear-gradient(45deg, #640ee6, #0e60e6);
+    color: #ffffff;
   }
   
   .s-m-section {
