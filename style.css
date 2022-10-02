@@ -129,16 +129,16 @@
     border-radius: 10px;
   }
   
-  .hero-section {
+.hero-section {
     background-color: #202124;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://cdn.discordapp.com/attachments/829066601332080660/994315823248330772/unknown.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./assests/hero-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10.8em 0 14.8em 0;
     border-radius: 0 0 50px 50px;
   
   }
-  
+
   .hero-title {
     margin: 15px;
   }
@@ -148,7 +148,7 @@
   }
   
   .hero-btn {
-    background: linear-gradient(45deg, #0e60e6, #640ee6);
+    background: linear-gradient(45deg, #f700ff, #f9a8fc);
     color: #ffffff;
   }
   
@@ -156,7 +156,6 @@
     background: linear-gradient(45deg, #640ee6, #0e60e6);
     color: #ffffff;
   }
-  
   .s-m-section {
     background: linear-gradient(45deg, #f59f3d, #ffcc33);
     padding: 20px;
@@ -184,7 +183,7 @@
   }
   
   .time-load-section {
-    background: linear-gradient(0deg, #E6F0FA 40%, #03192E 40%);
+    background-color: #03192E;
     padding: 100px 0;
   }
   
@@ -200,6 +199,12 @@
   .statics-section {
     background-color: #ffffff;
     color: #03192E;
+    padding: 70px;
+  }
+
+  .statics-section2 {
+    color: #ffffff;
+    background: linear-gradient(45deg, #f59f3d, #ffcc33);
     padding: 70px;
   }
   
