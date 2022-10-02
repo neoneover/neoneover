@@ -161,7 +161,10 @@
     padding: 20px;
   }
   
-  
+  .text_white{
+    color: #ffffff;
+  }
+
   .s-m-title {
     margin: 20px;
   }
@@ -199,12 +202,6 @@
   .statics-section {
     background-color: #ffffff;
     color: #03192E;
-    padding: 70px;
-  }
-
-  .statics-section2 {
-    color: #ffffff;
-    background: linear-gradient(45deg, #f59f3d, #ffcc33);
     padding: 70px;
   }
   
