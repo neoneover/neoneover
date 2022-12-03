@@ -1,173 +1,70 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" href="./style.css">
 
-        <meta name="keywords" content="OneOver">
-        <meta name="description" content="Сайт ван овера">
-        <meta name="msapplication-TileColor" content="#640EE6">
-        <meta name="theme-color" content="#640EE6">
-        <script src="https://kit.fontawesome.com/ed299f2e38.js" crossorigin="anonymous" type="338978397bf0ecfef5e98d22-text/javascript"></script>
-        <meta property="og:locale" content="ru_RU">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Ван овер">
-        <meta property="og:description" content="Я не знаю зачем я сделал этот сайт. Зато тут есть ссылочки на разные страницы. Хуйню несу...">
-        <meta property="og:url" content="https://oneover.ml">
-        <meta property="og:site_name" content="oneover.ml">
-        <meta property="og:image" content="https://cdn.discordapp.com/attachments/829066601332080660/955539909958053939/circleangel.png">
-        <meta property="og:image:width" content="720">
-        <meta property="og:image:height" content="720">
-    
-    
-        <title>OneOver</title>
-        <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/829066601332080660/955539909958053939/circleangel.png">
-    </head>
-    <body>
-        <div class="preloader">
-            <div class="preloader__row">
-              <div class="preloader__item"></div>
-              <div class="preloader__item"></div>
-            </div>
-        </div>
+<!doctype html>
+<html lang="ru" class="h-100">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>lover</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 
-        <header class="hero-section">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:type" content="website">
+<meta property="og:title" content="oneover">
+<meta property="og:url" content="https://oneover.ml">
+<meta name="msapplication-TileColor" content="#000001">
+<meta name="theme-color" content="#000001">
 
-            <img src="https://cdn.discordapp.com/attachments/829066601332080660/955539909958053939/circleangel.png", width="100", height="100" alt="logo">
-            
-            <h1 class="hero-title">OneOver</h1>
-        
-            <p class="hero-description">
-            <h4>Привет! Я Кирилл.</h4>
-            </p>
-            <br>
-            <a href="#about">
-            <button class="hero-btn">
-            Информация обо мне
-            </button>
-            </a>
-        </header>
+<style>
+    :root {
+      --bs-dark: #181818;
+      --bs-dark-rgb: 24, 24, 24;
+      --bs-font-sans-serif: 'Montserrat', sans-serif;
+    }
 
-        <main id="about" class="time-load-section">
-            <div class="container">
-                <h1 class="statics-title">Кто же я такой?</h1>
+    #preloader {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: #181818;
+      z-index: 1;
+      transition: 3s;
+    }
 
-                <p class="statics-description">
-                    Ещё раз повторюсь... Я Кирилл.
-                    <br>
-                    Я программист самоучка. Пишу на <b>Python</b>
+    .logo-text {
+      font: bold 15px 'Montserrat';
+    }
+  </style>
+</head>
+<body class="h-100 w-100 d-flex justify-content-center align-items-center bg-dark text-white">
+    <div id="preloader">
+    </div>
+    <main class="text-center">
+        <p class="mb-0 fs-4 fw-light">Что-то необычное</p>
+        <br>
+        <p>
+            <a class="text-white fw-bold" target="_blank" href="https://discord.com/invite/BfPNb7JGEK">impressive</a> ×
+            <a class="text-white fw-bold" target="_blank" href="https://discord.com/invite/cJrHhN4EHN">KIRUNO</a> ×
+            <a class="text-white fw-bold" target="_blank" href="https://t.me/neoneover">Блог</a>
+        </p>
+    </main>
+    <footer class="position-absolute bottom-0 mb-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-infinity" viewBox="0 0 16 16">
+            <path d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015L8 6.978Zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916L8.656 7.75Z"/>
+        </svg>
+        <text x="24" y="22" class="logo-text" fill="white">oneover</text>
+    </footer>
+</body>
+<script>
+  window.onload = _ => {
+    let preloader = document.getElementById("preloader")
 
-                </p>
-                <div class="statics-description">
-                    <h4>
-                        Что же ещё можно написать про себя?
-                    </h4>
-                    <br>
-                    <p>
-                        Ну например я часто зависаю в <b>Discord'e</b>. Там очень много дружелюбных серверов о которых я расскажу вам чуть позже.
-                    </p>
-                </div>
-            </div>
+    preloader.style.opacity = 0
+    preloader.style.pointerEvents = "none"
 
-            <div class="statics-section">
-                <div class="container">
-          
-                    <h2 class="statics-title">А сейчас я вам расскажу о моих проектах!</h2>
-
-                    <p class="statics-description">
-                    
-                    </p>
-
-                    <div class="row">
-                    
-                        <div class="statics-rows">
-                            <h2>
-                                Game Center (KIRUNO)
-                            </h2>
-                                Бот для небольшого сервера. Которого я забросил, но в данный момент продолжаю разрабатывать.
-                        </div>
-                        <div class="statics-rows">
-                            <h2>
-                                impressive
-                            </h2>
-                            Мой бот. Много полезных функций, модерация, экономика, и т.д.
-
-                            <br><br>
-
-                            <a href="https://discord.com/api/oauth2/authorize?client_id=951816196074905618&permissions=8&scope=bot%20applications.commands">
-                                <button class="hero-btn-2">
-                                    Пригласить
-                                </button>
-                            </a>
-                        </div>
-                        <div class="statics-rows">
-                            <h2>
-                                Miffy
-                            </h2>
-                                Мой бот, в котором я изучал некоторые функции. Он сейчас неактивен.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="s-m-section text_white" id="servers">
-                <h2 class="s-m-title">
-                    Так вот. Сервера на которых я часто зависаю:
-                </h2>
-                <p class="statics-description">
-                    
-                </p>
-                <div class="row">
-                    
-                    <div class="statics-rows">
-                        <h2>
-                            KIRUNO
-                        </h2>
-                        Очень отличный севрер. На нём я нашёл много новых друзей и знакомых, добился высокой роли, помогаю им в разработке бота.
-                        <br><br>
-                        <a href="https://discord.gg/g8egNMQqY7">
-                            <button class="hero-btn-2">
-                                Присоедениться
-                            </button>
-                        </a>
-                    </div>
-                    <div class="statics-rows">
-                        <h2>
-                            Orevial
-                        </h2>
-                        Сервер моего друга, который недавно развился, но там очень маленький актив. Я буду рад если вы поможете ему!
-                        <br><br>
-                        <a href="https://discord.gg/TcKQMZj">
-                            <button class="hero-btn-2">
-                                Присоедениться
-                            </button>
-                        </a>
-                    </div>
-                    <div class="statics-rows">
-                        <h2>
-                            forget me
-                        </h2>
-                            Мой сервер который я пытаюсь восстановить =)
-                    </div>
-                </div>
-                </div>
-        </main>
-
-        <footer class="foot">
-            <h4>Спасибо за посещение моего сайта. <3</h5>
-            <p>Github: <a href="https://github.com/neoneover">neoneover</a></p>
-          </footer>
-    
-    
-
-        <script>
-            window.onload = function () {
-              document.body.classList.add('loaded_hiding');
-              window.setTimeout(function () {
-                document.body.classList.add('loaded');
-                document.body.classList.remove('loaded_hiding');
-              }, 500);
-            }
-        </script>
-    </body>
+    setTimeout(_ => { preloader.remove() }, 10000)
+  }
+</script>
 </html>
