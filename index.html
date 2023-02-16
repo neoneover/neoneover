@@ -23,6 +23,10 @@
       --bs-dark-rgb: 24, 24, 24;
       --bs-font-sans-serif: 'Montserrat', sans-serif;
     }
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+    * {
+            font-family: 'Comfortaa', cursive;
+    }
 
     #preloader {
       position: absolute;
@@ -32,10 +36,17 @@
       z-index: 1;
       transition: 3s;
     }
-
-    .logo-text {
-      font: bold 15px 'Montserrat';
+    .social-block {
+      max-width: 16rem;
+      background-color: #0f0f0f;
+      border-radius: 20px;
+      padding: 15px 15px;
     }
+    .social-block:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    
   </style>
 </head>
 <body class="h-100 w-100 d-flex justify-content-center align-items-center bg-dark text-white">
@@ -44,11 +55,27 @@
     <main class="text-center">
         <p class="mb-0 fs-4 fw-light">Что-то необычное</p>
         <br>
-        <p>
-            <a class="text-white fw-bold" target="_blank" href="https://discord.com/invite/BfPNb7JGEK">impressive</a> ×
-            <a class="text-white fw-bold" target="_blank" href="https://discord.com/invite/cJrHhN4EHN">KIRUNO</a> ×
-            <a class="text-white fw-bold" target="_blank" href="https://t.me/neoneover">Блог</a>
-        </p>
+        <div class="social-block">
+          <h6>Социальные сети</h6>
+          <hr>
+          <div>
+            <a class="text-white fw-bold" target="_blank" href="https://t.me/neoneover">Телеграм</a>
+            <br> x <br>
+            <a class="text-white fw-bold" target="_blank" href="https://vk.com/oneover_off">Вк</a>
+          </div>
+        </div>
+
+        <div class="social-block">
+            <h6>Discord</h6>
+            <hr>
+            <div>
+                <a class="text-white fw-bold" target="_blank" href="https://discord.com/invite/BfPNb7JGEK">impressive</a>
+                <br> x <br>
+                <a class="text-white fw-bold" target="_blank" href="https://discord.com/invite/cJrHhN4EHN">KIRUNO</a>
+                <br> x <br>
+                <p class="text-white fw-bold" target="_blank" href="">Forget(разработка)</p>
+            </div>
+        </div>
     </main>
     <footer class="position-absolute bottom-0 mb-5">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-infinity" viewBox="0 0 16 16">
